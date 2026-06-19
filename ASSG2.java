@@ -44,18 +44,29 @@ public class ASSG2{
         //     System.out.println(o + " is the largest number");
         // }
 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a number: ");
-        int n = sc.nextInt();
-        int num = n;
+        // 2. Define a program to find out whether a given number is even or odd.
+        // Scanner sc = new Scanner(System.in);
+        // System.out.println("Enter a number: ");
+        // int n = sc.nextInt();
+        // int num = n;
  
         
-        if(n % 2 == 0){
-            System.out.println( n + " is an even number");
-        } else{
-            System.out.println( n + " is an odd number");
-        }   
+        // if(n % 2 == 0){
+        //     System.out.println( n + " is an even number");
+        // } else{
+        //     System.out.println( n + " is an odd number");
+        // }   
         
-    
+        // 3. Define a program to find out whether a given person is eligible to vote or not.
+        // Scanner sc = new Scanner(System.in);
+        // System.out.print("Enter your age: ");
+        // int age = sc.nextInt();
+
+        // if(age >= 18){
+        //     System.out.println("You are eligible to vote.");
+        // } else{
+        //     System.out.println("You are not eligible to vote.");
+        // }
+
     } 
 }
