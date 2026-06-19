@@ -88,5 +88,25 @@ public class ASSG2{
         // product = a * b;
         // System.out.println("The product of " + a + " and " + b + " is: " + product);
 
+    // 7. Define a program to find out the grade of a student based on marks entered by the user.
+    // int n;    
+    // Scanner sc = new Scanner(System.in);
+    // System.out.print("Enter Your Marks: ");
+    // n = sc.nextInt();
+
+    // if(n >= 90 && n <= 100){
+    //     System.out.println("Your Grade is A");
+    // } else if(n >= 80 && n < 90){
+    //     System.out.println("Your Grade is B");
+    // } else if(n >= 70 && n < 80){
+    //     System.out.println("Your Grade is C");
+    // } else if(n >= 60 && n < 70){
+    //     System.out.println("Your Grade is D");
+    // } else if(n >= 50 && n < 60){
+    //     System.out.println("Your Grade is E");
+    // } else{
+    //     System.out.println("Your Grade is F");
+    // }
+
     } 
 }
