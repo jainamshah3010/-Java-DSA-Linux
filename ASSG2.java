@@ -77,8 +77,16 @@ public class ASSG2{
         // b = sc.nextInt();
         // sum = a + b;
         // System.out.println("The sum of " + a + " and " + b + " is: " + sum);
-
-
+ 
+        // 5. Define a program to find the product of two numbers entered by the user.
+        // int a,b,product;
+        // Scanner sc = new Scanner(System.in);
+        // System.out.print("Enter a number: ");
+        // a = sc.nextInt();
+        // System.out.print("Enter another number: ");
+        // b = sc.nextInt();
+        // product = a * b;
+        // System.out.println("The product of " + a + " and " + b + " is: " + product);
 
     } 
 }
