@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 public class ASSG4 {
      public static void main(String[] args) {
-        int[] nums = {10,20,30,40,50,60,70,80,90,100};
+        int[] nums = {};
         int target = 50;
 
         int result = linearSearch(nums, target);
@@ -19,9 +19,9 @@ public class ASSG4 {
      }
 
      static int linearSearch(int[] arr, int target) {
-         if (arr.length == 0) {
-             return -1; // Return -1 if the array is empty
-         }
+        //  if (arr.length == 0) {
+        //      return -1; // Return -1 if the array is empty
+        // }
             for (int i = 0; i < arr.length; i++) {
                 if (arr[i] == target) {
                     return i; // Return the index if the target is found
@@ -31,5 +31,6 @@ public class ASSG4 {
 
         } 
 }
+
     
 
