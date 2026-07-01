@@ -35,7 +35,7 @@ public class assg1 {
         // int t = principal.nextInt();
         // int si = (p * r * t) / 100;
         // System.out.println("The simple interest is: " + si);
-    
+
 
         // 4.Take in two numbers and an operator (+, -, *, /) and calculate the value. (Use if conditions)
 
@@ -132,7 +132,7 @@ public class assg1 {
         //     System.out.println("The string is not a palindrome.");
         // }
 
-            // 9. To find Armstrong number or not.
+        // 9. To find Armstrong number or not.
             
         // Scanner sc = new Scanner(System.in);
         // System.out.print("Enter A Number ");
@@ -152,6 +152,16 @@ public class assg1 {
         //         System.out.println("The number is not an Armstrong number.");
         // }
         
+    int n = 4535;
+    int count = 0;
+    while (n > 0){
+        int rem = n % 10;
+        if(rem == 5){
+            count++;
+        }
+        n = n/10;
+    }
+    System.out.println(count);
 
     }
 }
