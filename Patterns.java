@@ -206,12 +206,39 @@ public class Patterns {
         // }
 
         //pattern 16
-        for(int i = 0;i <= n; i++){
-            char ch = (char)('A' + i);
-            for(int j = 0;j <= i; j++){
+        // for(int i = 0;i <= n; i++){
+        //     char ch = (char)('A' + i);
+        //     for(int j = 0;j <= i; j++){
+        //         System.out.print(ch);
+        //     }
+        //     System.out.println();
+        // }
+
+        //pattern 17
+        for(int i = 0;i < n; i++){
+            //spaces
+            for(int j = 0;j < n-i-1; j++){
+                System.out.print(" ");
+            }
+            //characters
+            char ch = 'A';
+            for(int j = 0;j < 2*i+1; j++){
                 System.out.print(ch);
+                if(j < i) ch++;
+                else ch--;
+            }
+            //spaces
+            for(int j = 0;j < n-i-1; j++){
+                System.out.print(" ");
             }
             System.out.println();
         }
+        //pattern 18
+        // for(int i = 1;i <= n; i++){
+        //     for(char ch ='A';ch <= 'A' + i + 1 - n; ch++){
+        //         System.out.print(ch);
+        //     }
+        //     System.out.println();
+        // }
     }
 }
