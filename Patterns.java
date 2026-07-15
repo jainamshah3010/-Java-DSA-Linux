@@ -198,8 +198,17 @@ public class Patterns {
         // }
 
         //pattern 15
-        for(int i = 0;i < n; i++){
-            for(char ch = 'A';ch <= 'A' + n - i - 1; ch++){
+        // for(int i = 0;i < n; i++){
+        //     for(char ch = 'A';ch <= 'A' + n - i - 1; ch++){
+        //         System.out.print(ch);
+        //     }
+        //     System.out.println();
+        // }
+
+        //pattern 16
+        for(int i = 0;i <= n; i++){
+            char ch = (char)('A' + i);
+            for(int j = 0;j <= i; j++){
                 System.out.print(ch);
             }
             System.out.println();
