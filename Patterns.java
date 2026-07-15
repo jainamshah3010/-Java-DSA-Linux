@@ -244,41 +244,63 @@ public class Patterns {
         // }
 
         //pattern 19
-        int inis = 0;
-        for(int i = 0;i < n; i++){
-        //stars
-            for(int j = 0;j < n-i; j++){
+        // int inis = 0;
+        // for(int i = 0;i < n; i++){
+        // //stars
+        //     for(int j = 0;j < n-i; j++){
+        //         System.out.print("*");
+        //     }
+        //     //spaces
+        //     for(int j = 0;j < inis; j++){
+        //         System.out.print(" ");
+        //     }
+        //     //stars
+        //     for(int j = 0;j < n-i; j++){
+        //         System.out.print("*");  
+
+        // }
+        // System.out.println();
+        //     inis += 2;
+        // }
+        // inis = 8;
+        // for(int i = 1;i <= n; i++){
+        //     //stars
+        //     for(int j = 1;j <= i; j++){
+        //         System.out.print("*");
+        //     }
+        //     //spaces
+        //     for(int j = 0;j < inis; j++){
+        //         System.out.print(" ");
+        //     }
+        //     //stars
+        //     for(int j = 1;j <= i; j++){
+        //         System.out.print("*");  
+
+        // }
+        // System.out.println();
+        //     inis -= 2;
+        // }
+
+        //pattern 20
+        int spaces = 2*n - 2;
+        for(int i = 1;i <= 2*n-1; i++){
+            int stars = i;
+            if(i > n) stars = 2*n - i;
+            //stars
+            for(int j = 1;j <= stars; j++){
                 System.out.print("*");
             }
             //spaces
-            for(int j = 0;j < inis; j++){
+            for(int j = 1;j <= spaces; j++){
                 System.out.print(" ");
             }
             //stars
-            for(int j = 0;j < n-i; j++){
-                System.out.print("*");  
-
-        }
-        System.out.println();
-            inis += 2;
-        }
-        inis = 8;
-        for(int i = 1;i <= n; i++){
-            //stars
-            for(int j = 1;j <= i; j++){
+            for(int j = 1;j <= stars; j++){
                 System.out.print("*");
             }
-            //spaces
-            for(int j = 0;j < inis; j++){
-                System.out.print(" ");
-            }
-            //stars
-            for(int j = 1;j <= i; j++){
-                System.out.print("*");  
-
-        }
-        System.out.println();
-            inis -= 2;
+            System.out.println();
+            if(i < n) spaces -= 2;
+            else spaces += 2;
         }
     }
 }
