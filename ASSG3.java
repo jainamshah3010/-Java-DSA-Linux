@@ -87,16 +87,16 @@ public class ASSG3{
     //     arr[index2] = temp;
     //     System.out.println(Arrays.toString(arr));
 
-      int[] arr = {10 , 20 , 30 , 40 , 50};
-            System.out.println(max(arr));
-    }
-    static int max(int[] arr){
-        int maxval = arr[0];
-        for(int i = 1; i < arr.length; i++){
-            if(arr[i] > maxval){
-                maxval = arr[i];
-            }
-        }
-        return maxval;
+    //   int[] arr = {10 , 20 , 30 , 40 , 50};
+    //         System.out.println(max(arr));
+    // }
+    // static int max(int[] arr){
+    //     int maxval = arr[0];
+    //     for(int i = 1; i < arr.length; i++){
+    //         if(arr[i] > maxval){
+    //             maxval = arr[i];
+    //         }
+    //     }
+    //     return maxval;
     }       
 }
