@@ -152,16 +152,16 @@ public class assg1 {
         //         System.out.println("The number is not an Armstrong number.");
         // }
         
-    int n = 4535;
-    int count = 0;
-    while (n > 0){
-        int rem = n % 10;
-        if(rem == 5){
-            count++;
-        }
-        n = n/10;
-    }
-    System.out.println(count);
+//     int n = 4535;
+//     int count = 0;
+//     while (n > 0){
+//         int rem = n % 10;
+//         if(rem == 5){
+//             count++;
+//         }
+//         n = n/10;
+//     }
+//     System.out.println(count);
 
-    }
-}
+//     }
+// }
