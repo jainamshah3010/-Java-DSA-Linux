@@ -6,13 +6,7 @@ public class ASSG4 {
 //         int[] nums = {};
 //         int target = 50;
 
-//         int result = linearSearch(nums, target);
-//         if (result != -1) {
-//             System.out.println("Element found at index: " + result);
-//         } else {
-//             System.out.println("Element not found");
-//         }
-//      }
+//         
 
 //      
 
