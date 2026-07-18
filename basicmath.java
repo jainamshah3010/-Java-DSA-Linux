@@ -29,5 +29,28 @@ public class basicmath{
 
     // }
     // System.out.println("Reversed number: " + revnum);
+
+    //palindrome number
+
+        // System.out.print("Enter Your String: ");
+        // String str = sc.next();
+        // String myobj = str;  //myobj is variable to compare with rev string
+
+        // String rev = "";
+
+        // int len = str.length();
+
+        // for (int i = len - 1; i >= 0; i--) {
+            
+        //     rev = rev + str.charAt(i);
+
+        // }
+        // if (myobj.equals(rev)) {
+        //     System.out.println("The string is a palindrome.");
+        // } else {
+        //     System.out.println("The string is not a palindrome.");
+        // }
+
+        
     }
 }
