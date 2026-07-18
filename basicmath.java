@@ -69,5 +69,16 @@ public class basicmath{
         // } else {
         //         System.out.println("The number is not an Armstrong number.");
         // }
+
+        //print all divisors of a number
+    //     printDivisors(n);
+    // static void printDivisors(int n) {
+    //     System.out.print("Divisors of " + n + " are: ");
+    //     for (int i = 1; i <= n; i++) {
+    //         if (n % i == 0) {
+    //             System.out.print(i + " ");
+    //         }
+    //     }
+    //     System.out.println();
     }
 }
