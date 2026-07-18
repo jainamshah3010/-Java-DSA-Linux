@@ -18,5 +18,16 @@ public class basicmath{
     //     }
     //     System.out.println("Total digits: " + count);
     //     return count;
+
+    // revrse a number
+   
+    // int revnum = 0;
+    // while(n > 0){
+    //     int r = n % 10;
+    //     revnum = revnum * 10 + r;
+    //     n = n / 10;
+
+    // }
+    // System.out.println("Reversed number: " + revnum);
     }
 }
