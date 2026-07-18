@@ -94,6 +94,24 @@ public class basicmath{
     //         System.out.println(n + " is a prime number.");
     //     } else {
     //         System.out.println(n + " is not a prime number.");
-    //     }    
+    //     }  
+    
+    // find gcd/hcf of numbers
+    // Scanner scanner = new Scanner(System.in);
+    //     System.out.print("Enter first number: ");
+    //     int num1 = scanner.nextInt();
+    //     System.out.print("Enter second number: ");
+    //     int num2 = scanner.nextInt();
+        
+    //     System.out.println("GCD: " + gcd(num1, num2));
+    // }
+    
+    // static int gcd(int num1, int num2) {
+    //     while(num1 > 0 && num2 > 0){
+    //         if( num1 > num2 ) num1 = num1 % num2;
+    //         else num2 = num2 % num1;
+    //     }
+    //     if(num1 == 0) return num2;
+    //     else return num1;
     }
 }
