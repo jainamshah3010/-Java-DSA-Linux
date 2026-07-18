@@ -51,6 +51,23 @@ public class basicmath{
         //     System.out.println("The string is not a palindrome.");
         // }
 
-        
+        //armstrong number
+        // // Scanner sc = new Scanner(System.in);
+        // System.out.print("Enter A Number ");
+        // int num = sc.nextInt();
+        // int temp = num;
+        // int r, sum = 0;
+
+        // while(temp>0){
+        //     r = temp % 10;
+        //     temp = temp / 10;
+        //     sum = sum + r*r*r;
+        // }
+
+        // if (num == sum) {
+        //     System.out.println("The number is an Armstrong number.");
+        // } else {
+        //         System.out.println("The number is not an Armstrong number.");
+        // }
     }
 }
